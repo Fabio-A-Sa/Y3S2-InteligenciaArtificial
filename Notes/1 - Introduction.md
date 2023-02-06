@@ -1,5 +1,7 @@
 # Introduction
 
+A inteligência artificial é a ciência que se ocupa da construção de máquinas inteligentes, ou seja, máquinas que são capazes de realizar tarefas que quando realizadas por humanos requerem inteligência.
+
 ## Tipos de inteligência Artificial
 
 - `Fraca`: focada em resolver um conjunto de tarefas específicas, como jogar um jogo, escolhas, etc;
