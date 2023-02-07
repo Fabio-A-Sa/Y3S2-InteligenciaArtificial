@@ -7,3 +7,4 @@ Criação de um agente para resolução de problemas. O problema pode ser formul
 - Objectivo
 - Operadores
 - Custo da solução
+
