@@ -1,4 +1,4 @@
-# Introduction
+# Introdução
 
 A inteligência artificial é a ciência que se ocupa da construção de máquinas inteligentes, ou seja, máquinas que são capazes de realizar tarefas que quando realizadas por humanos requerem inteligência.
 
@@ -10,16 +10,14 @@ A inteligência artificial é a ciência que se ocupa da construção de máquin
 ## Áreas da Inteligência Artificial
 
 - Resolução de problemas;
-- Machine Learning;
+- Machine Learning, quando a máquina aprende com dados e/ou as suas próprias ações sem estarem explicitamente programados. Pode ser *supervised*, *unsupervised* ou *reinforcement*;
 - Planeamento e Escalonamento;
-- Processamento de linguagem natural;
+- Processamento de linguagem Natural;
 - Robótica inteligente;
-
-#TODO -> resto da introdução
 
 ## Agentes Inteligentes
 
-Percebe o ambiente através de sensores e atua com motores, rodas, câmaras, para interagir com o mesmo. Um **agente racional** atua para ser o mais seguro, económico, maximizando a resolução do problema de acordo com as medidas de sucesso. Toma a ação correcta de acordo com a informação finita que tem. <br>
+Percebe o ambiente através de sensores e atua com motores, rodas, câmaras, para interagir com o mesmo. Um **agente racional** atua para ser o mais seguro, económico, maximizando a resolução do problema de acordo com as medidas de sucesso. Toma a ação correcta de acordo com a informação finita que tem. Um sistema **múltiplo-agente** reune dois ou mais agentes do tipo, que além de agirem com o ambiente também podem interagir entre si.<br>
 
 Para caracterizar o agente, é necessário primeiro saber as características do ambiente em que está inserido. 
 TODO: são caracterizados por <PEAS>
