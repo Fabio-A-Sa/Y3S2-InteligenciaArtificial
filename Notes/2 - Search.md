@@ -66,3 +66,5 @@ Expande o nó que parece estar mais próximo da solução. Por exemplo a distân
 
 Soma o custo com o <TODO>
 Não necessita de testar estados repetidos. 
+Desde que a eurística (distância em linha reta), o algoritmo é ótimo e completo.
+
