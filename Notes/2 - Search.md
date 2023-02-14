@@ -60,7 +60,7 @@ Método ótimo e completo, com  <TODO>
 
 ### Greedy-Search
 
-Expande o nó que parece estar mais próximo da solução. Por exemplo a distância em linha reta num mapa. Não garante chegar à solução e muito menos chegar à solução ótima, pode chegar em ciclos infinitos se houver nós repetidos. Por outro lado é rápido, apesar de manter todos os nós pesquisados em memória.
+Expande o nó que parece estar mais próximo da solução. Por exemplo a distância em linha reta num mapa. Não garante chegar à solução e muito menos chegar à solução ótima, pode chegar em ciclos infinitos se houver nós repetidos. Por outro lado é rápido, apesar de manter todos os nós pesquisados em memória.a
 
 ### A*
 
