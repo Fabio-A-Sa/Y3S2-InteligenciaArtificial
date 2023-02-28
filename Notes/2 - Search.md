@@ -68,3 +68,6 @@ Soma o custo com o <TODO>
 Não necessita de testar estados repetidos. 
 Desde que a eurística (distância em linha reta), o algoritmo é ótimo e completo.
 
+## Adversarial Search
+
+Quando um oponente imprevisível e racional é inserido no mundo, jogando da melhor forma possível.
