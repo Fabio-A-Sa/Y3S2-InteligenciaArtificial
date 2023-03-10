@@ -17,7 +17,9 @@ A Inteligência Artificial é a ciência que se ocupa da construção de máquin
 
 ## Agentes Inteligentes
 
-Percebe o ambiente através de sensores e atua com motores, rodas, câmaras, (atuadores) para interagir com o mesmo. Um **agente racional** atua para ser o mais seguro, económico, maximizando a resolução do problema de acordo com as medidas de sucesso. Toma a ação correcta de acordo com a informação finita que tem. Um sistema **múltiplo-agente** reune dois ou mais agentes do tipo, que além de reagirem conforme o ambiente também podem interagir entre si.
+Percebe o ambiente através de sensores e atua com motores, rodas, câmaras, (atuadores) para interagir com o mesmo. 
+- Um **agente racional** atua para ser o mais seguro, económico, maximizando a resolução do problema de acordo com as medidas de sucesso. Toma a ação correcta de acordo com a informação finita que tem. 
+- Um sistema **múltiplo-agente** reune dois ou mais agentes do tipo, que além de reagirem conforme o ambiente também podem interagir entre si.
 
 São classificados de acordo com o método PEAS (Performance measure, Environments, Actuators, Sensors).
 
