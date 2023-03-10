@@ -1,23 +1,23 @@
 # Introdução
 
-A inteligência artificial é a ciência que se ocupa da construção de máquinas inteligentes, ou seja, máquinas que são capazes de realizar tarefas que quando realizadas por humanos requerem inteligência.
+A Inteligência Artificial é a ciência que se ocupa da construção de máquinas inteligentes, ou seja, máquinas que são capazes de realizar tarefas que quando realizadas por humanos requerem inteligência.
 
 ## Tipos de inteligência Artificial
 
 - `Fraca`: focada em resolver um conjunto de tarefas específicas, como jogar um jogo, escolhas, etc;
-- `Forte`: máquina mais geral que consegue realizar qualquer tarefa que um humano consiga, como o ChatGPT;
+- `Forte`: máquina mais geral que consegue realizar qualquer tarefa intelectual que um humano consiga, como o ChatGPT;
 
 ## Áreas da Inteligência Artificial
 
 - Resolução de problemas;
-- Machine Learning, quando a máquina aprende com dados e/ou as suas próprias ações sem estarem explicitamente programados. Pode ser *supervised*, *unsupervised* ou *reinforcement*;
+- Machine Learning, quando a máquina aprende com dados e/ou as suas próprias ações sem estarem explicitamente programados. Pode ser *supervised* (quando aprende antes), *unsupervised* (aprende fazendo) ou *reinforcement* (dá-se pontos positivos ou negativos de acordo com as ações);
 - Planeamento e Escalonamento;
 - Processamento de linguagem Natural;
 - Robótica inteligente;
 
 ## Agentes Inteligentes
 
-Percebe o ambiente através de sensores e atua com motores, rodas, câmaras, para interagir com o mesmo. Um **agente racional** atua para ser o mais seguro, económico, maximizando a resolução do problema de acordo com as medidas de sucesso. Toma a ação correcta de acordo com a informação finita que tem. Um sistema **múltiplo-agente** reune dois ou mais agentes do tipo, que além de reagirem conforme o ambiente também podem interagir entre si.
+Percebe o ambiente através de sensores e atua com motores, rodas, câmaras, (atuadores) para interagir com o mesmo. Um **agente racional** atua para ser o mais seguro, económico, maximizando a resolução do problema de acordo com as medidas de sucesso. Toma a ação correcta de acordo com a informação finita que tem. Um sistema **múltiplo-agente** reune dois ou mais agentes do tipo, que além de reagirem conforme o ambiente também podem interagir entre si.
 
 São classificados de acordo com o método PEAS (Performance measure, Environments, Actuators, Sensors).
 
