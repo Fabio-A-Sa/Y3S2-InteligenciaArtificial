@@ -8,3 +8,5 @@ A base de dados usada (*Knowledge Base, KB*) é um conjunto de factos sobre o si
 
 Os **mecanismos de inferência** garantem que o raciocínio criado a partir do conjunto de dados é coerente.
 
+<TODO: tudo>
+
