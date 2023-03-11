@@ -39,3 +39,10 @@ Há uma perturbação grande no espaço de estados e vizinhança, pelo que o sis
 ### Tabu Search
 
 Permite movimentos que não melhoram a solução e usa memória extra para diversificar a pesquisa. Movimentos dentro da memória tabu não podem ser escolhidos durante X jogadas, embora possam sê-lo se melhorarem drasticamente a situação: critério de aspiração. Permite até que se mova para uma zona que piora a solução, dado um critério mais extenso e demorado. 
+
+### Genetic Algorithms
+
+- Mutações: troca e inversão de cromossomas;
+- Crossover: operação binária que retira partes de um cromossoma e de outro cromossoma;
+
+Aqui a população mais eficiente e que arranja melhores soluções acaba por dominar e prevalecer para as gerações futuras, tal como acontece com a Natureza.
