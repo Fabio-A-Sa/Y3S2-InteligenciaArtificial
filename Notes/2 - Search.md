@@ -11,7 +11,7 @@ Um problema de pesquisa pode ser formulado de acordo com os seguintes tópicos:
 Os problemas podem ser:
 
 - Problemas de `estado único` (são determinísticos e com ambiente acessível);
-- Problemas de `estados múltiplos` (determinísticos mas com ambiente não acessível);
+- Problemas de `estados múltiplos` (determinísticos mas com ambiente não totalmente acessível);
 - Problemas de `contingência` (não determinísticos com ambiente inacessível, os sensores devem ser usados durante a execução, a pesquisa é realizada com uma árvore ou regras bem definidas);
 - Problemas de `exploração` (quando o espaço de estados não é definido);
 
