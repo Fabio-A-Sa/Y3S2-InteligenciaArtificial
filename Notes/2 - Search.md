@@ -31,7 +31,7 @@ As complexidades temporais e espaciais são medidas em termos de:
 
 ### Breadth-First Search (BFS)
 
-O principal problema está na utilização de recursos, onde todos os estados possíveis têm de estar obrigatoriamente na memória. Tem custo exponencial em tempo e espaço, O(B^N), sendo  <TODO>
+O principal problema está na utilização de recursos, onde todos os estados possíveis têm de estar obrigatoriamente na memória. Tem custo exponencial em tempo e espaço, O(b^d). É uma algoritmo sistemático e útil para pequenas pesquisas num espaço de estados bem definidos.
 
 ### Dijkstra / Pesquisa de custo uniforme
 
