@@ -40,9 +40,9 @@ São classificados de acordo com o método PEAS:
 
 Para caracterizar o agente, é necessário primeiro saber as características do ambiente em que está inserido:
 
-- `Simple Reflex/Reactive`: baseado em fórmulas if-then, com ambiente controlado e com as tarefas bem definidas. Reage ao ambiente atual;
+- `Simple Reflex/Reactive`: baseado em fórmulas if-then-else, com ambiente controlado e com as tarefas bem definidas. Reage ao ambiente atual;
 - `With world representation`: baseado em agentes de reflexo que contém uma representação do estado do mundo (memória) em conjunto com as suas ações. Em cada iteração atualiza o estado;
 - `Objective Based`: tem descrição interna do estado atual do mundo, do objectivo a alcançar e dos efeitos que as suas ações têm no ambiente. Usado para problemas de pesquisa;
 - `Utility Based`: a medida de sucesso é com base na utilidade, uma medida de desempenho. Orienta uma sequência de ações que incrementem a sua utilidade;
-- `Learning`: aprende com o ambiente de modo a aumentar cada vez mais a sua performance;
+- `Learning`: aprende com o ambiente de modo a aumentar cada vez mais a sua performance. Usados em Machine Learning;
 - `BDI`: beliefs, desires and intentions, de modo a ter informações, motivações e deliberações;
