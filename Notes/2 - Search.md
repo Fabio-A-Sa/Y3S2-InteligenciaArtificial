@@ -1,15 +1,8 @@
 # Search
 
-Criação de um agente para resolução de problemas de pesquisa. Um problema pode ser caracterizado por:
+Um problema de pesquisa pode ser formulado de acordo com os seguintes tópicos:
 
-- Conjunto de estados;
-- O estado inicial;
-- Conjunto de estados objectivo/finais;
-- Transições entre estados possíveis;
-
-O problema pode ser formulado de acordo com os seguintes tópicos:
-
-- Representação de estado;
+- Representação do estado;
 - O estado inicial;
 - O estado objectivo;
 - Os operadores (com nome, pré-condições, efeitos e custo associados);
