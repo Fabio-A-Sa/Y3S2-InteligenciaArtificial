@@ -27,6 +27,17 @@ São classificados de acordo com o método PEAS:
 - `Actuators`, acelerador, travão;
 - `Sensors`, câmaras, sonares, velocímetro;
 
+### Propriedades dos ambientes
+
+- Acessível ou não acessível: quando os sensores do agente consegue detectar tudo que é relevante no ambiente;
+- Determinístico ou não determinístico: se o próximo estado é determinado pelo ambiente e por ações anteriores do agente;
+- Episódico e não episódico: quando os episódios seguintes dependem ou não dos anteriores;
+- Estático e dinâmico: se o estado do ambiente muda quando o agente está a analisar a próxima ação;
+- Discreto e contínuo: quando há um número finito de ações e percepções possíveis;
+- Agente único e múltiplos agentes. Estes último permite eliminar os pontos de falha, ser escalável, com componentes independentes, ter uma distribuição da informação pelo ambiente;
+
+
+
 ### Tipos de agentes
 
 Para caracterizar o agente, é necessário primeiro saber as características do ambiente em que está inserido:
@@ -37,13 +48,3 @@ Para caracterizar o agente, é necessário primeiro saber as características do
 - `Utility Based`: a medida de sucesso é com base na utilidade, uma medida de desempenho. Orienta uma sequência de ações que incrementem a sua utilidade;
 - `Learning`: aprende com o ambiente de modo a aumentar cada vez mais a sua performance;
 - `BDI`: beliefs, desires and intentions, de modo a ter informações, motivações e deliberações;
-
-### Propriedades dos ambientes
-
-- Acessível ou não acessível: quando os sensores do agente consegue detectar tudo que é relevante no ambiente;
-- Determinístico ou não determinístico: se o próximo estado é determinado pelo ambiente e por ações anteriores do agente;
-- Episódico e não episódico: quando os episódios seguintes dependem ou não dos anteriores;
-- Estático e dinâmico: se o estado do ambiente muda quando o agente está a analisar a próxima ação;
-- Discreto e contínuo: quando há um número finito de ações e percepções possíveis;
-- Agente único e múltiplos agentes. Estes último permite eliminar os pontos de falha, ser escalável, com componentes independentes, ter uma distribuição da informação pelo ambiente;
-
