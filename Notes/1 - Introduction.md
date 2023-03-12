@@ -29,14 +29,12 @@ São classificados de acordo com o método PEAS:
 
 ### Propriedades dos ambientes
 
-- Acessível ou não acessível: quando os sensores do agente consegue detectar tudo que é relevante no ambiente;
-- Determinístico ou não determinístico: se o próximo estado é determinado pelo ambiente e por ações anteriores do agente;
-- Episódico e não episódico: quando os episódios seguintes dependem ou não dos anteriores;
-- Estático e dinâmico: se o estado do ambiente muda quando o agente está a analisar a próxima ação;
-- Discreto e contínuo: quando há um número finito de ações e percepções possíveis;
-- Agente único e múltiplos agentes. Estes último permite eliminar os pontos de falha, ser escalável, com componentes independentes, ter uma distribuição da informação pelo ambiente;
-
-
+- `Acessível` ou não acessível: quando os sensores do agente conseguem detectar tudo que é relevante no ambiente;
+- `Determinístico` ou não determinístico: se o próximo estado é determinado pelo ambiente e por ações anteriores do agente;
+- `Episódico` e não episódico: quando os episódios seguintes dependem ou não dos anteriores;
+- `Estático` e dinâmico: se o estado do ambiente muda quando o agente está a analisar a próxima ação;
+- `Discreto` e contínuo: quando há um número finito de ações e percepções possíveis;
+- `Único` ou múltiplo: este último permite eliminar os pontos de falha, ser escalável, com componentes independentes, ter uma distribuição da informação pelo ambiente;
 
 ### Tipos de agentes
 
