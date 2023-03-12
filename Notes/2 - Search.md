@@ -23,9 +23,9 @@ Os problemas podem ser:
 - Optimalidade: se o algoritmo encontrar sempre a solução ótima (com menor custo);
 
 As complexidades temporais e espaciais são medidas em termos de:
-- Fator de ramificação;
-- Profundidade da árvore de pesquisa;
-- Profundidade da solução de menor custo / ótima;
+- Fator de ramificação (b, *branch factor*);
+- Profundidade da solução de menor custo / ótima (d, *depth factor*);
+- Profundidade da árvore de pesquisa (m, pode ser infinito);
 
 ## Algoritmos de pesquisa não informada
 
