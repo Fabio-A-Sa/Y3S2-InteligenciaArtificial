@@ -57,9 +57,9 @@ Algoritmo que não é ótimo nem completo. Expande o nó que parece estar mais p
 
 ### A*
 
-É um algoritmo ótimo e completo. 
-Não necessita de testar estados repetidos. 
-Desde que a eurística (distância em linha reta), o algoritmo é ótimo e completo.
+É um algoritmo ótimo e completo desde que a eurítica seja admissível e otimista, como por exemplo a distância em linha reta para atingir o objectivo. Não necessita de testar os estados repetidos. Soma entre o custo para chegar ao estado atual e o custo estimado para atingir o objetivo. 
+
+
 
 ## Adversarial Search
 
