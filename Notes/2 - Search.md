@@ -53,11 +53,11 @@ Enquanto parte do algoritmo pesquisa da origem ao destino, outra parte pesquisa 
 
 ### Greedy-Search
 
-Expande o nó que parece estar mais próximo da solução. Por exemplo a distância em linha reta num mapa. Não garante chegar à solução e muito menos chegar à solução ótima, pode ficar em ciclos infinitos se houver nós repetidos. Manter todos os nós pesquisados em memória causa um problema a nível de complexidade temporal O(b^m) e complexidade espacial O(b^m), com m potencialmente infinito pois é a profundidade da árvore de pesquisa. 
+Algoritmo que não é ótimo nem completo. Expande o nó que parece estar mais próximo da solução. Por exemplo a distância em linha reta num mapa. Não garante chegar à solução e muito menos chegar à solução ótima, pode ficar em ciclos infinitos se houver nós repetidos. Manter todos os nós pesquisados em memória causa um problema a nível de complexidade temporal O(b^m) e complexidade espacial O(b^m), com m potencialmente infinito pois é a profundidade da árvore de pesquisa. 
 
 ### A*
 
-Soma o custo com o <TODO>
+É um algoritmo ótimo e completo. 
 Não necessita de testar estados repetidos. 
 Desde que a eurística (distância em linha reta), o algoritmo é ótimo e completo.
 
