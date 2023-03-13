@@ -43,7 +43,7 @@ Só funciona eficientemente se a pesquisa tiver uma profundidade limite (m). Por
 
 ### Iterative Deepening Search (IDS)
 
-Método ótimo e completo, com  <TODO>
+Método ótimo e completo. É a melhor solução quando a profundidade da solução não é conhecida e queremos minimizar os custos de uma pesquisa em profundidade. Iterativamente aumentamos a profundidade de pesquisa, tornando a complexidade temporal O(b^d) e a complexidade espacial O(bd).
 
 ### Pesquisa bidirecional
 
