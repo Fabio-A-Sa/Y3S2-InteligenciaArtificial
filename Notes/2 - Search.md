@@ -35,7 +35,7 @@ O principal problema está na utilização de recursos, onde todos os estados po
 
 ### Dijkstra / Pesquisa de custo uniforme
 
-<TODO>
+A estratégia é expandir o nó com melhor custo acumulado. Se o custo for proporcional à profundidade alcançada, então trata-se de um BFS normal.
 
 ### Depth-First Search (DFS)
 
