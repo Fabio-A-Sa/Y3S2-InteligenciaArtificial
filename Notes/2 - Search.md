@@ -39,7 +39,7 @@ A estratégia é expandir o nó com melhor custo acumulado. Se o custo for propo
 
 ### Depth-First Search (DFS)
 
-Só funciona eficientemente se a pesquisa tiver uma profundidade limite. Por outro lado é possível eliminar parte do espaço de estados / da memória manipulada quando uma subárvore não contém a solução desejada. A complexidade no espaço passa a ser O(BN) e não O(B^N), embora gaste mais tempo do que o BFS.
+Só funciona eficientemente se a pesquisa tiver uma profundidade limite (m). Por outro lado é possível eliminar parte do espaço de estados / da memória manipulada quando uma subárvore não contém a solução desejada. A complexidade no espaço passa a ser O(bm) e a complexidade temporal depende da profundidade máxima, O(b^m).
 
 ### Iterative Deepening Search (IDS)
 
