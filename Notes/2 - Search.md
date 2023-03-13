@@ -47,7 +47,7 @@ Método ótimo e completo. É a melhor solução quando a profundidade da soluç
 
 ### Pesquisa bidirecional
 
-<TODO>
+Enquanto parte do algoritmo pesquisa da origem ao destino, outra parte pesquisa do destino à origem. Serve somente para problemas onde dá para gerar os nós parentes e se houver um número finito de soluções. Reduz a complexidade temporal em metade, O(b^(d/2)).
 
 ## Algoritmos de pesquisa informada
 
