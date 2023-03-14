@@ -68,3 +68,5 @@ Quando um oponente imprevisível e racional é inserido no mundo, jogando da mel
 ### Minimax Algorithm
 
 Gera uma árvore com profundidade geralmente limitada, intercalando as jogadas do próprio e do oponente. Com a função de utilidade calcula para cada tabuleiro, das folhas ao nó, aquele que aumenta a utilidade da próxima jogada tendo em vista o futuro. Escolhe o movimento que aumenta os seus pontos e diminui os do oponente.
+
+O algoritmo Minimax é completo se a árvore for finita e é ótimo se o oponente jogar da melhor forma possível. Tem complexidade temporal O(b^m) e complexidade espacial O(bm).
