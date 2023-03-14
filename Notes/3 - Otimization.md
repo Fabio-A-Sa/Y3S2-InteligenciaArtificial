@@ -5,6 +5,11 @@ Os problemas de otimização são muitas vezes de maximização ou de minimizaç
 - Travelling Salesman Problem (TSP);
 - COP - Combinatorial Optimization Problem;
 
+Para os problemas de otimização normalmente usa-se a **vizinhança** para poder saltar de solução em solução para tentar atingir um ótimo local. Para fugir do ótimo local é necessário usar outro tipo de mecanismos:
+
+-
+-
+-
 
 
 
