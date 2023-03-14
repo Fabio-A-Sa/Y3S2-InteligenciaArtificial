@@ -1,6 +1,12 @@
 # Otimization
 
-# -> Aula 4 Metaheuristics
+Os problemas de otimização são muitas vezes de maximização ou de minimização. O conjunto de estados possíveis para um problema é finito embora possa ser muito grande, pelo que a pesquisa total é impossível: recorre-se à aproximação. Exemplos de algoritmos:
+- Knapsack Problem;
+- Travelling Salesman Problem (TSP);
+- COP - Combinatorial Optimization Problem;
+
+
+
 
 Classificação
 
