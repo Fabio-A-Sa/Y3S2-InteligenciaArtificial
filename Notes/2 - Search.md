@@ -73,3 +73,9 @@ O algoritmo Minimax é completo se a árvore for finita e é ótimo se o oponent
 
 ### Monte Carlo Tree Search
 
+Funciona bem para jogos com fator de ramificação muito grande e para quando é difícil definir uma vantajosa função de avaliação do estado do jogo. Algoritmo:
+- Seleção de um caminho desde a raiz até a uma folha de resultado ainda não calculado e consistente;
+- Expansão desse nó folha;
+- Simulação do percurso até atingir o objetivo final (derrota, empate, vitória);
+- Propagação dos valores até à raiz e repetição do processo;
+
