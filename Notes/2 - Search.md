@@ -63,5 +63,8 @@ A variante `Weighted A*` permite expandir menos nós, expandido só aqueles que 
 
 ## Adversarial Search
 
-Quando um oponente imprevisível e racional é inserido no mundo, jogando da melhor forma possível.
+Quando um oponente imprevisível e racional é inserido no mundo, jogando da melhor forma possível. A informação pode ser **perfeita**, onde o agente sabe tudo sobre o ambiente, ou **imperfeita**, onde o jogo também depende de sorte.
 
+### Minimax Algorithm
+
+Gera uma árvore com profundidade geralmente limitada, intercalando as jogadas do próprio e do oponente. Com a função de utilidade calcula para cada tabuleiro, das folhas ao nó, aquele que aumenta a utilidade da próxima jogada tendo em vista o futuro. Escolhe o movimento que aumenta os seus pontos e diminui os do oponente.
