@@ -19,7 +19,14 @@ As provas podem ser de dois tipos:
 
 ## First Order Logic
 
+Representada por constantes, relações e funções, tal como a linguagem Prolog. Usam-se muitas vezes provas por contradição para aferir resultados e colocá-los na base de conhecimento do agente. <br>
 
+Por ordem crescente de inteligência:
+- Intelligent Systems
+- Knowledge Based Systems
+- Expert Systems
+
+Com o `Expert Systems` 
 
 ## Incerteza
 
