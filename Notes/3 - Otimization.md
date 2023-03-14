@@ -42,7 +42,7 @@ Permite movimentos que não melhoram a solução e usa memória extra para diver
 
 ### Genetic Algorithms
 
-- Mutações: troca e inversão de cromossomas;
-- Crossover: operação binária que retira partes de um cromossoma e de outro cromossoma;
+- Mutações: troca e inversão de cromossomas. Movimenta o espaço de pesquisa e pode reavivar informações sobre a população entretanto perdidas;
+- Crossover: operação binária de recombinação que retira partes de um cromossoma e de outro cromossoma;
 
-Aqui a população mais eficiente e que arranja melhores soluções acaba por dominar e prevalecer para as gerações futuras, tal como acontece com a Natureza.
+Aqui a população mais eficiente e que arranja melhores soluções acaba por dominar e prevalecer para as gerações futuras, tal como acontece com a Natureza. Os pais podem ser escolhidos por torneio (aleatório, serve para reproduzir mais rapidamente a população), ou pela roleta, que tem fatias de acordo com o valor relativo da população. 
