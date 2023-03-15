@@ -12,7 +12,14 @@ Os **mecanismos de inferência** garantem que o raciocínio criado a partir do c
 a |= b, 'a' implica 'b'
 ```
 
-A `inferência lógica` acontece sempre que podemos derivar uma afirmação verdadeira da base de conhecimento, preservando a verdade (*soundness*) e a completude (derivar qualquer frase que esteja vinculada ao conhecimento). Dois conhecimentos dizem-se **logicamente equivalentes** se um implicar outro e vice-versa. 
+A `inferência lógica` acontece sempre que podemos derivar uma afirmação verdadeira da base de conhecimento, preservando a verdade (*soundness*) e a completude (derivar qualquer frase que esteja vinculada ao conhecimento). Dois conhecimentos dizem-se **logicamente equivalentes** se um implicar outro e vice-versa. <br>
+As provas podem ser de dois tipos:
+- Backward chaining;
+- Forward chaining;
+
+## First Order Logic
+
+
 
 ## Incerteza
 
