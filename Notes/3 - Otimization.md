@@ -10,7 +10,7 @@ Para os problemas de otimização normalmente usa-se a **vizinhança** de modo a
 - `Best accept`: seleciona o melhor vizinho da vizinhança;
 - `Fist accept`: seleciona o primeiro melhor vizinho;
 
-No entanto estes dois algoritmos acabam por ficar presos num `ótimo local`, pois param quando não encontram nenhum melhoramento próximo. Para isso usam-se as meta-heurísticas.
+No entanto estes dois algoritmos acabam por ficar presos num `ótimo local`, pois param quando não encontram nenhum melhoramento próximo. Para isso usam-se as meta-heurísticas. Pode ser um **random descent** quando selecionamos uma solução vizinha aleatória ou um **random walk** quando adquirimos o estatuto da solução vizinha aleatória.
 
 ### Classificação de Meta-heurísticas X/Y/Z
 
