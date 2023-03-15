@@ -10,21 +10,17 @@ Para os problemas de otimização normalmente usa-se a **vizinhança** de modo a
 - `Best accept`: seleciona o melhor vizinho da vizinhança;
 - `Fist accept`: seleciona o primeiro melhor vizinho;
 
-No entanto estes dois algoritmos acabam por ficar presos num `ótimo local`.
+No entanto estes dois algoritmos acabam por ficar presos num `ótimo local`, pois param quando não encontram nenhum melhoramento próximo. Para isso usam-se as meta-heurísticas.
 
+### Classificação de Meta-heurísticas X/Y/Z
 
-
-Classificação
-
-x/y/z
-
-x -> se têm memória ou não
-y -> random ou pesquisa por vizinhos
-z -> uma única solução ou um conjunto de soluções
+`X` -> se têm memória (A) ou não (M)
+`Y` -> random (S) ou pesquisa por vizinhos (N)
+`Z` -> uma única solução (1) ou um conjunto de soluções que representam uma população (P)
 
 Os algoritmos mais utilizados são:
-- Simulated Annealing - Arrefecimento Simulado
-- Tabu Search
-- Genetic Algorithms
+- Simulated Annealing;
+- Tabu Search;
+- Genetic Algorithms;
 
 ### Arrefecimento Simulado
