@@ -20,6 +20,7 @@ No entanto estes dois algoritmos acabam por ficar presos num `ótimo local`, poi
 
 Os algoritmos mais utilizados são:
 - Simulated Annealing;
+- Iterated Local Search;
 - Tabu Search;
 - Genetic Algorithms;
 
@@ -30,6 +31,10 @@ Os algoritmos mais utilizados são:
 - Os movimentos de pioria são aceites com probabilidade que varia de acordo com a quantidade de deteorioração da solução e a temperatura;
 - A capacidade de mudar para uma situação pior diminui com o tempo;
 - Pode ser necessário fazer várias iterações e recomeçar o algoritmo. Se a pesquisa for determinística então não vale a pena;
+
+### Iterated Local Search
+
+Há uma perturbação grande no espaço de estados e vizinhança, pelo que o sistema passa a reconhecer um novo ótimo local independente do anterior. Define um conjunto de soluções admissíveis.
 
 ### Tabu Search
 
