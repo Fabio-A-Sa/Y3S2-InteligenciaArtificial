@@ -14,8 +14,8 @@ a |= b, 'a' implica 'b'
 
 A `inferência lógica` acontece sempre que podemos derivar uma afirmação verdadeira da base de conhecimento, preservando a verdade (*soundness*) e a completude (derivar qualquer frase que esteja vinculada ao conhecimento). Dois conhecimentos dizem-se **logicamente equivalentes** se um implicar outro e vice-versa. <br>
 As provas podem ser de dois tipos:
-- Backward chaining;
-- Forward chaining;
+- Backward chaining, daquilo que se quer provar para aquilo que se sabe, andar para trás no raciocínio, provando-o;
+- Forward chaining, daquilo que se sabe para aquilo que se quer provar, raciocionar até chegar à conclusão;
 
 ## First Order Logic
 
@@ -26,7 +26,7 @@ Por ordem crescente de inteligência:
 - Knowledge Based Systems
 - Expert Systems
 
-Com o `Expert Systems` 
+Com os `Expert Systems` a disponibilidade de conhecimento torna-se permanente e rapidamente disponível, é mais confiável e mais explicável porque facilmente o raciocínio pode ser rastreado e verificado. 
 
 ## Incerteza
 
