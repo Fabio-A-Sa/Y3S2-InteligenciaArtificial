@@ -24,3 +24,12 @@ Os algoritmos mais utilizados são:
 - Genetic Algorithms;
 
 ### Arrefecimento Simulado
+
+- Escolha de um vizinho aleatório;
+- Os movimentos de melhoria são sempre aceites;
+- Os movimentos de pioria são aceites com probabilidade que varia de acordo com a quantidade de deteorioração da solução e a temperatura;
+- A capacidade de mudar para uma situação pior diminui com o tempo;
+- Pode ser necessário fazer várias iterações e recomeçar o algoritmo. Se a pesquisa for determinística então não vale a pena;
+
+### Tabu Search
+
