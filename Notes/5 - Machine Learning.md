@@ -10,8 +10,5 @@ Campo da Inteligência Artificial que dá capacidade aos sistemas computacionais
 
 A aprendizagem supervisionada deve usar dados pré-processados. O pré-processamento tem três etapas:
 - `Integração` de dados de várias fontes e de vários formatos;
-- `Limpeza` dos dados, 
-- `Transformação` dos dados,
-
-<TODO>
-
+- `Limpeza` dos dados, lidar com dados parciais, dados-lixo, dados duplicados, incompletos e inconsistentes;
+- `Transformação` dos dados, extrair as features importantes, reduzir a dimensão dos dados e balancear os tipos e categorias de dados;
