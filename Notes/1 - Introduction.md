@@ -21,7 +21,11 @@ Percebe o ambiente através de sensores e atua com motores, rodas, câmaras, (at
 - Um **agente racional** atua para ser o mais seguro, económico, maximizando a resolução do problema de acordo com as medidas de sucesso. Toma a ação correcta de acordo com a informação finita que tem. 
 - Um sistema **múltiplo-agente** reune dois ou mais agentes do tipo, que além de reagirem conforme o ambiente também podem interagir entre si.
 
-São classificados de acordo com o método PEAS (Performance measure, Environments, Actuators, Sensors).
+São classificados de acordo com o método PEAS:
+- `Performance measure`, seguro, rápido, legal, confortável;
+- `Environments`, estradas, circuitos;
+- `Actuators`, acelerador, travão;
+- `Sensors`, câmaras, sonares, velocímetro;
 
 ### Tipos de agentes
 
