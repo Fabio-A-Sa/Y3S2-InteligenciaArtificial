@@ -8,4 +8,9 @@ Campo da Inteligência Artificial que dá capacidade aos sistemas computacionais
 - `Unsupervised`: os dados não contêm classes definidas. Podem ser problemas de **clustering** e de **associações**;
 - `Reinforcement`: de acordo com os outputs o sistema recebe feedback, com recompensas e penalidades;
 
-## 
+A aprendizagem supervisionada deve usar dados pré-processados. O pré-processamento tem três etapas:
+- `Integração` de dados de várias fontes e de vários formatos;
+- `Limpeza` dos dados, 
+- `Transformação` dos dados,
+
+<TODO>
