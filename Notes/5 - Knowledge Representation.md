@@ -10,3 +10,20 @@ Os **mecanismos de inferência** garantem que o raciocínio criado a partir do c
 
 <TODO: tudo>
 
+<COISAS>
+
+## Incerteza
+
+Maximizar o nível de performance do agente e não a probabilidade de sucesso, com base na Teoria da Utilidade.
+
+1. Probabilidade condicionada:
+
+```note
+P(gripe|febre) = P(gripe && febre) / P(febre)
+```
+
+2. Teorema de Bayes
+
+```note
+P(b|a) = ( P(a|b) * P(b) ) / P(a)
+```
