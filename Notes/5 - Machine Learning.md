@@ -101,7 +101,11 @@ gini_index() = 1 - sum((xi/xt)^2, for i in [0..c])
 - Entropia
 
 ```note
-Entropia(split) = soma(- P(x) * log2 (P(x)), for x in split)
+c  - número de classes
+xi - número de objetos classificados como pertencentes à classe i
+xt - número total de objetos classificados
+
+entropia() = sum(-(xi/xt) * log2 (xi/xt), for i in [0..c])
 ```
 
 - Erro de classificação
