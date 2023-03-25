@@ -111,7 +111,11 @@ entropia() = sum(-(xi/xt) * log2 (xi/xt), for i in [0..c])
 - Erro de classificação
 
 ```note
+c  - número de classes
+xi - número de objetos classificados como pertencentes à classe i
+xt - número total de objetos classificados
 
+classification_error() = 1 - max(xi/xt, for i in [0..c])
 ```
 
 O algoritmo termina com uma profundidade fixa, ou quando já não houver atributos, ou quando houver um split total dos dados.
