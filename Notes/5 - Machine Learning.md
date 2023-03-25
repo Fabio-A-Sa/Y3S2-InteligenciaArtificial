@@ -91,7 +91,11 @@ Em cada iteração, separa os valores por nó/atributo em duas categorias binár
 - Gini Index
 
 ```note
+c  - número de classes
+xi - número de objetos classificados como pertencentes à classe i
+xt - número total de objetos classificados
 
+gini_index() = 1 - sum((xi/xt)^2, for i in [0..c])
 ```
 
 - Entropia
