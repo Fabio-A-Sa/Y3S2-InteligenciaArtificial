@@ -45,6 +45,7 @@ Os dados também podem ser discretos (incluindo binários) ou contínuos.
 
 ### Qualidade dos dados
 
+A qualidade dos dados depende de quatro fatores principais:
 - *Outliers*, dados errados;
 - Valores duplicados;
 - Valores em falta, ou eliminar os objetos ou estimar os atributos em falta;
