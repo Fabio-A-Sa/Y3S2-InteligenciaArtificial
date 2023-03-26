@@ -140,7 +140,7 @@ A partir da tabela conseguimos calcular a percentagem de acertos. No entanto, se
 
 ## K-Nearest Neighbor
 
-Seleciona os K vizinhos mais próximos do objeto a analisar e atribui a classificação da moda desses vizinhos. Não precisa de treino.
+Seleciona os K vizinhos mais próximos do objeto a analisar e atribui a classificação da moda desses vizinhos. Não precisa de treino, embora precise de pré-processamento dos dados.
 
 ## Suport Vector Machines
 
