@@ -138,8 +138,6 @@ Permite avaliar a capacidade de previsão do modelo. A **Matriz de Confusão** p
 
 A partir da tabela conseguimos calcular a percentagem de acertos. No entanto, se os dados forem desbalanceados, esta medida não pode ser usada. Para dados desbalanceados podemos usar custos aos dados que importam prever.
 
-<TODO: fórmulas 51> passar à frente as curvas dos slides
-
 ## K-Nearest Neighbor
 
 Seleciona os K vizinhos mais próximos do objeto a analisar e atribui a classificação da moda desses vizinhos. Não precisa de treino.
