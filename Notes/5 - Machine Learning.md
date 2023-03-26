@@ -118,10 +118,7 @@ xt - número total de objetos classificados
 classification_error() = 1 - max(xi/xt, for i in [0..c])
 ```
 
-- Vantagens
-- Desvantagens
-
-<TODO>
+Por um lado é um algoritmo simples de implementar a nível de complexidade temporal e espacial, é robusto ao ruído e à distribuição dos atributos. Por outro lado um pequeno desvio nos dados de input compromete a estrutura da árvore e a separação dos ramos depende unicamente de um atributo e não de um conjunto ponderado destes.
 
 ### Erros de classificação
 
