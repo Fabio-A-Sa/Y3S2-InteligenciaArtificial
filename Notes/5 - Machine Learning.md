@@ -145,3 +145,7 @@ Seleciona os K vizinhos mais próximos do objeto a analisar e atribui a classifi
 ### Suport Vector Machines
 
 Numa distribuição dos dados é possível criar vectores que separam os valores em dois grupos. O vetor de suporte é tanto melhor quanto mais largo, que significa que consegue separar com mais exatidão os valores.
+
+### ANN - Artificial Neural Networks
+
+Uma complexa função não-linear pode ser aprendida com base em unidades de processamento, com pesos associados a cada aresta. Os pesos depois são afinados com base na retro-propagação com valores finais corretos.
