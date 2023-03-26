@@ -86,7 +86,7 @@ Dado um conjunto de registos (conjunto de treino) e um conjunto de respostas pr�
 
 Escolhe o atributo que parece separar melhor os dados em cada iteração. Pode haver mais de uma árvore que representa os dados selecionados. Inicialmente há a construção da árvore de decisão através do `algoritmo de Hunt`:
 
-Em cada iteração, separa os valores por nó/atributo em duas categorias binárias ou não (depende do tipo da variável). O melhor *split* é escolhido com base no ganho antes e depois do split, com a diferença da impureza nas duas situações. A impureza é descrita por três indicadores:
+Em cada iteração, separa os valores por nó/atributo em duas categorias binárias ou não (depende do tipo da variável). O melhor *split* é escolhido com base no ganho antes e depois do split, com a diferença da impureza nas duas situações. O algoritmo termina com uma profundidade fixa, ou quando já não houver atributos, ou quando houver um split total dos dados. A impureza é descrita por três indicadores:
 
 - Gini Index
 
@@ -117,8 +117,6 @@ xt - número total de objetos classificados
 
 classification_error() = 1 - max(xi/xt, for i in [0..c])
 ```
-
-O algoritmo termina com uma profundidade fixa, ou quando já não houver atributos, ou quando houver um split total dos dados.
 
 - Vantagens
 - Desvantagens
