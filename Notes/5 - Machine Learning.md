@@ -124,11 +124,9 @@ Por um lado é um algoritmo simples de implementar a nível de complexidade temp
 
 A ideia é ter um modelo generalizado, que não se adapte totalmente aos dados de treino e possa classificar correctamente os dados de teste. Temos de evitar *overfitting* do modelo, parando a otimização da árvore de decisão quando o erro de teste começa a subir (perde a generalização).
 
-<TODO:45>
+`Holdout` - Reserva uma percentagem para teste, o resto é para treino. A principal desvantagem é não treinar o modelo com todos os dados disponíveis, o que pode ser limitativo;
 
-`Holdout` - 
-
-`Cross Validation` - Permite treinar com todos os dados, em cada iteração separa os dados em X partições, faz vários modelos..
+`Cross Validation` - Permite treinar com todos os dados, em cada iteração separa os dados em X partições, faz vários modelos com cada um e escolhe o melhor;
 
 ## Avaliação de Modelos
 
