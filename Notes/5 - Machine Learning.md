@@ -53,5 +53,25 @@ Os dados também podem ser discretos (incluindo binários) ou contínuos.
 Dois objetos podem ser classificados através da sua proximidade, de acordo com duas medidas:
 - `Similaridade`
 - `Dissimilaridade`
-Em geral, dois objetos são próximos se a distância dos seus atribuitos for pequena (distância em linha reta, ortogonal, minkowski).
+Em geral, dois objetos são próximos se a distância dos seus atribuitos for pequena (distância em linha reta, ortogonal, minkowski). A partir daqui dá para ter uma ideia da **correlação** entre os dados, que pode variar entre -1 a 1:
+- **-1**, são inversamente proporcionais
+- **0**, os valores são independentes
+- **1**, são diretamente proporcionais 
+
+## Data Preprocessing
+
+- `Agregação`, combinação de dois ou mais atributos de objetos num único atributo para ser mais facilmente manipulável e reduzir a quantidade de dados;
+
+- `Sampling`, amostragem, com recolha de um conjunto representativo dos dados em geral. Pode ser de dois tipos:
+    - **Random Sampling**, com ou seu reposição na população;
+    - **Stratified Sampling**, através da divisão dos dados em várias partição e escolha de alguns valores entre cada classe;
+
+- `Discretização`, converte um valor contínuo num valor ordinal, classificando os dados de acordo com intervalos pré-definidos;
+
+- `Binarização`, converte valores inteiros para um valor binário;
+
+### Transformação de Atributos
+
+Através de transformações logarítmicas, exponenciais, modulares, para poder comparar atributos de objetos inicialmente distintos. <br>
+Redução também de dimensionalidade, usando apenas as variávels que têm mais influência nos resultados que se querem obter, com o algoritmo PCA (*Principal Components Analysis*).
 
