@@ -75,3 +75,50 @@ Em geral, dois objetos são próximos se a distância dos seus atribuitos for pe
 Através de transformações logarítmicas, exponenciais, modulares, para poder comparar atributos de objetos inicialmente distintos. <br>
 Redução também de dimensionalidade, usando apenas as variávels que têm mais influência nos resultados que se querem obter, com o algoritmo PCA (*Principal Components Analysis*).
 
+## Supervised Learning - Classification
+
+Dado um conjunto de registos (conjunto de treino) e um conjunto de respostas pré-determinadas, o objetivo é encontrar um modelo para classificar corretamente futuros inputs, através de algoritmos de aprendizagem. O modelo deve ser testado para avaliar a sua eficiência com outro conjunto de dados com classificação também conhecida.
+
+### Técnicas de Classificação
+
+#### Decision Tree
+
+Escolhe o atributo que parece separar melhor os dados em cada iteração. Pode haver mais de uma árvore que representa os dados selecionados. 
+
+Construção da árvore de decisão através do `algoritmo de Hunt`:
+
+Em cada iteração, separa os valores por nó/atributo em duas categorias binárias, de modo a . O melhor *split* é escolhido com base no ganho antes e depois do split, com a diferença da impureza nas duas situações:
+
+<TODO>
+
+- Gini Index;
+
+
+- Entropia
+
+```note
+Entropia(split) = soma(- P(x) * log2 (P(x)), for x in split)
+```
+
+
+- Erro de classificação;
+
+O algoritmo termina com uma profundidade fixa, ou quando já não houver atributos, ou quando houver um split total dos dados.
+
+- Vantagens
+- Desvantagens
+
+<TODO>
+
+### Erros de classificação
+
+A ideia é ter um modelo generalizado, que não se adapte totalmente aos dados de treino e possa classificar correctamente os dados de teste. Temos de evitar *overfitting* do modelo, parando a otimização da árvore de decisão quando o erro de teste começa a subir (perde a generalização).
+
+<TODO:45>
+
+`Holdout` - 
+
+`Cross Validation` - Permite treinar com todos os dados, em cada iteração separa os dados em X partições, 
+
+## Avaliação de Modelos
+
