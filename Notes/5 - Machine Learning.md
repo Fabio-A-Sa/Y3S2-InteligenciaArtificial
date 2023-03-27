@@ -118,7 +118,28 @@ A ideia é ter um modelo generalizado, que não se adapte totalmente aos dados d
 
 `Holdout` - 
 
-`Cross Validation` - Permite treinar com todos os dados, em cada iteração separa os dados em X partições, 
+`Cross Validation` - Permite treinar com todos os dados, em cada iteração separa os dados em X partições, faz vários modelos..
 
 ## Avaliação de Modelos
 
+Permite avaliar a capacidade de previsão do modelo. A **Matriz de Confusão** permite organizar os valores em:
+- Verdadeiros negativos
+- Falsos negativos
+- Verdadeiros positivos
+- Falsos positivos
+
+A partir da tabela conseguimos calcular a percentagem de acertos. No entanto, se os dados forem desbalanceados, esta medida não pode ser usada. Para dados desbalanceados podemos usar custos aos dados que importam prever.
+
+<TODO: fórmulas 51> passar à frente as curvas dos slides
+
+## K-Nearest Neighbor
+
+Seleciona os K vizinhos mais próximos do objeto a analisar e atribui a classificação da moda desses vizinhos. Não precisa de treino.
+
+## Suport Vector Machines
+
+<TODO>
+
+##
+
+<TODO>
