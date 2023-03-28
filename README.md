@@ -14,7 +14,18 @@ This repository contains all the exercises and assessments of the UC Inteligênc
 ## Here are several documents, namely:
 
 ### Notes
+
 Notes that I take during theoretical lectures in Markdown. <br>
+
+### Project 1
+
+The game Cohesion Free is a one-player game played on a pre-generated board with four different colors. The game starts with a scrambled board, and the player must slide tiles to form larger clusters of tiles of the same color. The game ends when the player wins by having only a single cluster of each color.
+
+#### Members
+
+- Diogo Costa, up202007770@edu.fe.up.pt
+- Fábio Sá, up202007658@edu.fe.up.pt
+- João Araújo, up202004293@edu.fe.up.pt
 
 **@ Fábio Araújo de Sá** <br>
 **2022/2023**
