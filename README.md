@@ -17,7 +17,7 @@ This repository contains all the exercises and assessments of the UC Inteligênc
 
 Notes that I take during theoretical lectures in Markdown. <br>
 
-### Project 1
+### Project 1 (Grade: __/20)
 
 The game Cohesion Free is a one-player game played on a pre-generated board with four different colors. The game starts with a scrambled board, and the player must slide tiles to form larger clusters of tiles of the same color. The game ends when the player wins by having only a single cluster of each color.
 
@@ -27,10 +27,11 @@ The game Cohesion Free is a one-player game played on a pre-generated board with
 - Fábio Sá, up202007658@edu.fe.up.pt
 - João Araújo, up202004293@edu.fe.up.pt
 
-### Project 2
+### Project 2 (Grade: __/20)
 
 The goal of this project is to predict whether a cancer biopsy is benign or malignant, based on the 30 attributes mentioned above. This is a binary classification problem, where the target variable is the diagnosis, which can be either benign or malignant.
 
+The solution to this problem is a supervised learning model, which will be trained using the dataset mentioned above. The model will be trained using the training set, and then evaluated using the test set. The model will be evaluated using the accuracy metric, which is the percentage of correct predictions made by the model.
 
 #### Members
 
