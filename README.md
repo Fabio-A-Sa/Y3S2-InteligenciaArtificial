@@ -21,11 +21,11 @@ Notes that I take during theoretical lectures in Markdown. <br>
 
 The game Cohesion Free is a one-player game played on a pre-generated board with four different colors. The game starts with a scrambled board, and the player must slide tiles to form larger clusters of tiles of the same color. The game ends when the player wins by having only a single cluster of each color.
 
-There will be able to play with different modes and difficults:
+The player has many different modes and difficults to choose:
 
 ![Cohesion](/Project%201/images/cohesion.png)
 
-The player may have multiple algorithms to run:
+The player has multiple algorithms to run:
 
 ![Game Start](/Project%201/images/game.png)
 

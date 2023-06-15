@@ -1,11 +1,11 @@
 # **Cohesion Free** : Heuristic Search Methods for One Player Solitaire Games
 # Grade: 20/20
 
-There will be able to play with different modes and difficults:
+The player has many different modes and difficults to choose:
 
 ![Cohesion](/Project%201/images/cohesion.png)
 
-The player may have multiple algorithms to run:
+The player has multiple algorithms to run:
 
 ![Game Start](/Project%201/images/game.png)
 
