@@ -1,4 +1,21 @@
 # **Cohesion Free** : Heuristic Search Methods for One Player Solitaire Games
+# Grade: 20/20
+
+There will be able to play with different modes and difficults:
+
+![Cohesion](/Project%201/images/cohesion.png)
+
+The player may have multiple algorithms to run:
+
+![Game Start](/Project%201/images/game.png)
+
+An example of computed Search Tree of DFS algorithm:
+
+![IA Search Algorithm 1](/Project%201/images/dfs.png)
+
+An example of computed Search Tree of A* algorithm:
+
+![IA Search Algorithm 2](/Project%201/images/search.png)
 
 ## Table of Contents
 
