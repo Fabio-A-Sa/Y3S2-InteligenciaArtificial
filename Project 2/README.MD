@@ -3,7 +3,7 @@
 
 ## Cancer Prediction
 
-![Cancer Prediction](/images/cancer.jpg)
+![Cancer Prediction](/Project%202/images/cancer.jpg)
 
 The goal of this project is to predict whether a cancer biopsy is benign or malignant, based on the 30 attributes mentioned above. This is a binary classification problem, where the target variable is the diagnosis, which can be either benign or malignant.
 
